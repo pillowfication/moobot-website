@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('stats');
+  this.route('scores');
+  this.route('moo');
 });
 
 export default Router;
