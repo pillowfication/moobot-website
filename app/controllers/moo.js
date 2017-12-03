@@ -5,7 +5,7 @@ export default Controller.extend({
     triggerMoo() {
       let url = 'http://localhost:3000/moo'
       $.post(url, (data) => {
-      	console.log('aye')
+      	console.log('moo\'d')
       })
     }
   }
